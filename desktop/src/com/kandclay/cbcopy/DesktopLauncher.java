@@ -9,6 +9,6 @@ public class DesktopLauncher {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);
 		config.setTitle("cb-copy");
-		new Lwjgl3Application(new DemoGame(), config);
+		new Lwjgl3Application(new MyDemoGame(), config);
 	}
 }
